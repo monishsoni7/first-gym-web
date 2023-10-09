@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/abs-1850926.jpg');
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 35%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 102px 80px;
+        padding: 75px;
+        width: 30%;
+        border-radius: 28px;
+    }.formgroup input{
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+
+    }
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+</style>
+
+<body>
+    <header class="class">
+        <!-- for logo -->
+        <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div>
+                My Fitness
+            </div>
+        </div>
+        <!-- for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Fitness Character</a</li>
+                <li><a href="#"> Contect Us</a></li>
+            </ul>
+        </div>
+        <!-- for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of kota for both BOYS and GIRLS</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your NAME">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your AGE">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your GENDER">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your EX NO.">
+                
+            </div>
+            <button class="btn">
+                SUBMIT
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
